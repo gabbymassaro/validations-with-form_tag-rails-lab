@@ -1,5 +1,5 @@
 RSpec.describe 'authors/edit', type: :feature do
- 
+
   let(:person) do
     Author.create!(
       email: 'Valid email',
